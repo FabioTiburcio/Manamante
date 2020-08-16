@@ -28,7 +28,7 @@ public enum CraftingItemElement
     Gelo
 }
 
-[CreateAssetMenu(fileName = "New Crafting Item", menuName = "Item/Crafting Item")]
+[CreateAssetMenu(fileName = "New Crafting Item", menuName = "Inventory System/Item/Crafting Item")]
 public class CraftingItem : Item
 {
     public CraftingItemType craftingItemType;

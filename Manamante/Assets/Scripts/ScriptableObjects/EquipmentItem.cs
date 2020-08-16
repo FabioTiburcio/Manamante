@@ -10,7 +10,7 @@ public enum EquipmentType
     PedraDeVeneno
 }
 
-[CreateAssetMenu(fileName = "New Equipment Item", menuName = "Item/Equipment Item")]
+[CreateAssetMenu(fileName = "New Equipment Item", menuName = "Inventory System/Item/Equipment Item")]
 public class EquipmentItem : Item
 {
     public EquipmentType equipmentItem;

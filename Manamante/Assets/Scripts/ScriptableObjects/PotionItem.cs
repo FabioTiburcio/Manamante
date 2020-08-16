@@ -12,7 +12,7 @@ public enum PotionType
     HealEletric,
     HealIce
 }
-[CreateAssetMenu(fileName = "New Potion Item", menuName = "Item/Potion Item")]
+[CreateAssetMenu(fileName = "New Potion Item", menuName = "Inventory System/Item/Potion Item")]
 public class PotionItem : Item
 {
     public PotionType potionType;
